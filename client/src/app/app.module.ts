@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
 import { SignupComponent } from './component/signup/signup.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
-import { CanvasComponent } from './component/canvas/canvas.component';
-import { ToolBarComponent } from './component/tool-bar/tool-bar.component';
 import { CollaborateComponent } from './component/collaborate/collaborate.component';
+import { CanvasComponent } from './component/dashboard/canvas/canvas.component';
+import { ToolBarComponent } from './component/dashboard/tool-bar/tool-bar.component';
+import { ChatComponent } from './component/dashboard/chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,10 @@ import { CollaborateComponent } from './component/collaborate/collaborate.compon
     LoginComponent,
     SignupComponent,
     NavbarComponent,
+    CollaborateComponent,
     CanvasComponent,
     ToolBarComponent,
-    CollaborateComponent
+    ChatComponent,
   ],
   imports: [
     BrowserModule,
